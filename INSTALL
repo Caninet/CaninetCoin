@@ -1,0 +1,9 @@
+Building Caninet
+
+See doc/readme-qt.rst for instructions on building Caninet-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Caninet.
+
+See doc/build-*.txt for instructions on building caninetd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Caninet.

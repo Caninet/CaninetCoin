@@ -1,0 +1,34 @@
+src/*.exe
+src/caninet
+src/caninetd
+src/test_caninet
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.caninet
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+caninet-qt
+Caninet-Qt.app
+
+# Unit-tests
+Makefile.test
+caninet-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
